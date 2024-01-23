@@ -25,4 +25,5 @@
   - After Encoder pass to linear layer then to classification layer ‘softmax’ .
 
 
+
 - submit results on Kaggle competition and rank the best accuracy achieved in the competition.
