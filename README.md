@@ -18,12 +18,11 @@
   - Apply OneHotEncoder to convert Classes to labels
   - Split into train and validation 
 
-## Transfomer:
-  - It uses a conventional CNN backbone to learn a 2D representation of an input image.
-  - The model flattens it and supplements it with a positional encoding before passing it into a transformer encoder. 
-  - After features + positional encoding , additionally attends to the encoder. 
-  - After Encoder pass to linear layer then to classification layer ‘softmax’ .
+  - ## Transfomer:
+      - It uses a conventional CNN backbone to learn a 2D representation of an input image.
+      - The model flattens it and supplements it with a positional encoding before passing it into a transformer encoder. 
+      - After features + positional encoding , additionally attends to the encoder. 
+      - After Encoder pass to linear layer then to classification layer ‘softmax’ .
 
 
-
-- submit results on Kaggle competition and rank the best accuracy achieved in the competition.
+  - submit results on Kaggle competition and rank the best accuracy achieved in the competition.
