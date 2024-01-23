@@ -18,7 +18,7 @@
   - Apply OneHotEncoder to convert Classes to labels
   - Split into train and validation 
 
-  - ## Transfomer:
+  - ### Transfomer :
       - It uses a conventional CNN backbone to learn a 2D representation of an input image.
       - The model flattens it and supplements it with a positional encoding before passing it into a transformer encoder. 
       - After features + positional encoding , additionally attends to the encoder. 
